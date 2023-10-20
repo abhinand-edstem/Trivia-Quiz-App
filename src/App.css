@@ -1,0 +1,47 @@
+.App{
+  display: grid;
+  place-content: center;
+}
+.home_container{
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button{
+  background-color: grey;
+  padding: 15px;
+  margin: 15px;
+  width: auto;
+  border-radius: 8px;
+  border: none;
+}
+.qtn_container{
+  margin-top: 50px;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid lightgreen;
+  border-radius: 15px;
+}
+.wrong_answer{
+  background-color: red;
+  padding: 15px;
+  width: auto;
+  border-radius: 8px;
+  border: none;
+}
+.next_qtn_container{
+  display: flex;
+  justify-content: flex-start;
+}
+.next_qtn{
+  background-color: lightgreen;
+  padding: 15px;
+  margin: 15px;
+  width: auto;
+  border-radius: 8px;
+  border: none;
+}
+.correct{
+  background-color: green
+}
